@@ -1,0 +1,14 @@
+{
+  "name": "svg_to_axidraw",
+  "version": "1.0.0",
+  "description": "",
+  "main": ".src/main.js",
+  "type": "module",
+  "scripts": {
+    "start": "node .src/main.js",
+    "dev": "node --watch .src/main.js",
+    "test": "python3 -m pipenv run axicli .test/_test.svg -vg 3 -o axidraw-last-output.svg"
+  },
+  "author": "",
+  "license": "ISC"
+}
